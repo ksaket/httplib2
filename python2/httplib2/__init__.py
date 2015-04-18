@@ -1079,6 +1079,7 @@ SCHEME_TO_CONNECTION = {
     'https': HTTPSConnectionWithTimeout
 }
 
+'''
 # Use a different connection object for Google App Engine
 try:
     try:
@@ -1137,7 +1138,7 @@ try:
     }
 except (ImportError, AttributeError):
     pass
-
+'''
 
 class Http(object):
     """An HTTP client that handles:
